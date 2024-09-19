@@ -1,11 +1,13 @@
 void main() {
-    var counter = 30;
+    int counter = 30;
     while (counter < 33) {
         print(counter);
         counter++;
     }
+
+    int counter1 = 34;
     do {
-        print(counter);
-        counter++;
-    } while (counter < 77);
+        print(counter1);
+        counter1++;
+    } while (counter1 < 77);
 }

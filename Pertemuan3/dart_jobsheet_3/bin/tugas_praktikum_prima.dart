@@ -2,7 +2,7 @@ void main() {
   String nama = "Agta Fadjrin Aminullah 2241760072";
   for (int i = 2; i <= 201; i++) {
     if (prima(i)) {
-      print(nama);
+      print("$nama,dengan angka $i");
     }
   }
 }
